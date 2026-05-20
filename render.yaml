@@ -1,0 +1,7 @@
+﻿services:
+  - type: web
+    name: fur
+    runtime: static
+    buildCommand: echo 'No build needed'
+    staticPublishPath: ./
+    branch: main
